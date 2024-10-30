@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:mentorme/PagesForMentor/projectForMentor/uploadProject.dart';
+import 'package:mentorme_formentor/PagesForMentor/projectForMentor/uploadProject.dart';
 
 class ProjectForMentorPage extends StatefulWidget {
   const ProjectForMentorPage({super.key});

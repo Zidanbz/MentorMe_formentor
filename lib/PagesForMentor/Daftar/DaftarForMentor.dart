@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:mentorme/Pages/Login/login_page.dart';
-import 'package:mentorme/PagesForMentor/Daftar/DaftarForMentorTwo.dart';
+import 'package:mentorme_formentor/PagesForMentor/Daftar/DaftarForMentorTwo.dart';
+
 
 class RegisterForMentorPage extends StatelessWidget {
   const RegisterForMentorPage({super.key});
@@ -167,11 +167,11 @@ class RegisterForMentorPage extends StatelessWidget {
                   TextButton(
                     onPressed: () {
                       // Aksi navigasi ke halaman login
-                      Navigator.push(
-                        context,
-                        MaterialPageRoute(
-                            builder: (context) => const LoginPage()),
-                      );
+                      // Navigator.push(
+                      //   context,
+                      //   MaterialPageRoute(
+                      //       builder: (context) => const LoginPage()),
+                      // );
                     },
                     child: const Text(
                       'Masuk disini',

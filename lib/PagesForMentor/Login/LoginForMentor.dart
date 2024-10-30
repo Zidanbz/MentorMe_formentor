@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:mentorme/Pages/Daftar/daftar_page.dart';
-import 'package:mentorme/PagesForMentor/projectForMentor/projectForMentor.dart';
-import 'package:mentorme/main.dart';
+import 'package:mentorme_formentor/PagesForMentor/projectForMentor/projectForMentor.dart';
 
 class LoginForMentorPage extends StatelessWidget {
   const LoginForMentorPage({super.key});
@@ -141,11 +139,11 @@ class LoginForMentorPage extends StatelessWidget {
                   TextButton(
                     onPressed: () {
                       // Aksi navigasi ke halaman daftar
-                      Navigator.push(
-                        context,
-                        MaterialPageRoute(
-                            builder: (context) => const RegisterPage()),
-                      );
+                      // Navigator.push(
+                      //   context,
+                      //   MaterialPageRoute(
+                      //       builder: (context) => const RegisterPage()),
+                      // );
                     },
                     child: const Text(
                       'Daftar disini',
