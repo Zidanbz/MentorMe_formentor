@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:mentorme_formentor/PagesForMentor/projectForMentor/projectForMentor.dart';
+import 'package:mentorme_formentor/main_screen.dart';
 
 class LoginForMentorPage extends StatelessWidget {
   const LoginForMentorPage({super.key});
@@ -109,7 +110,7 @@ class LoginForMentorPage extends StatelessWidget {
                   Navigator.push(
                     context,
                     MaterialPageRoute(
-                      builder: (context) => const ProjectForMentorPage(),
+                      builder: (context) => const MainScreen(),
                     ),
                   );
                 },
